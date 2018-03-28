@@ -59,7 +59,7 @@ li.slider_img img{
 .navbar{background: #fff;height: 80px;position: fixed;left: 0;top: 0;bottom: 0;right: 0;z-index:1000;}
 .navbar .container{position: relative;}
 .container{max-width: 81.875em;margin: 0 auto;width: 100%;box-sizing: border-box;padding: 0 1rem;height: auto;}
-.logo img{max-height: 80px;display: inline-block; border-right: 1px solid #eee;}
+.logo img{max-height: 80px;display: inline-block; border-right: 1px solid #eee;padding-right: 20px;}
 .owl-theme .owl-dots{position: relative;z-index: 20;}
 .owl-theme .owl-nav.disabled + .owl-dots{margin-top: -2.5rem;}
 .f16{font-size: 1rem;}

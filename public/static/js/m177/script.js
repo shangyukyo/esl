@@ -14,6 +14,8 @@ function ws_blinds(t,i,e){function n(i,e,n,o,s){t.support.transform&&t.support.t
 // extend wowslider for effect support
 (function($){
 
+	
+
 	var effects = ['ws_seven', 'ws_cube', 'ws_brick'];
 	var duration = 1700, delay = 4500;
 	var cSlide, bkpCont, wowInstance, timeout;
