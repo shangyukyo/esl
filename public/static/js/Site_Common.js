@@ -308,6 +308,27 @@ var ShowImage = function () {
 };
 jQuery(document).ready(function () {
     ShowImage();
+
+    var p =0, t= 0;
+  $(window).scroll(function(e){  
+
+          p = $(this).scrollTop();  
+            
+          if(t<=p){
+              $('nav.navbar').height("60px");
+              $('.logo img').height("60px");
+              $('ul.menu > li > a').css("line-height", "60px")
+              $('.submenu').css("top", "60px")
+          }else{
+              $('nav.navbar').height("80px");
+              $('.logo img').height("80px");            
+              $('ul.menu > li > a').css("line-height", "80px")
+              $('.submenu').css("top", "80px")
+          }  
+           
+          setTimeout(function(){t = p;},0);         
+  });       
+
 });
 
 function addFavorite() {
