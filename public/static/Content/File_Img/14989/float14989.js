@@ -1,5 +1,5 @@
 ﻿document.writeln("<style type=\'text/css\'>");
-document.writeln(".main-im{position:fixed;right:10px;top:200px;z-index:100;width:160px;height:auto;z-index: 999999999999999999999}");
+document.writeln(".main-im{position:fixed;right:10px;top:200px;z-index:100;width:160px;height:auto;z-index: 999999999999999999999};display:none;");
 document.writeln(".main-im .close-im{position:absolute;right:6px;top:12px;z-index:9999999999;display:block;width:36px;height:36px;}");
 document.writeln(".main-im .open-im{cursor:pointer;margin-left:94px;width:75px;height:229px;background:url(/images/Common3/ssss_1.png) no-repeat left top;-webkit-box-shadow:0 0 6px #ddd;-moz-box-shadow:0 0 6px #ddd;box-shadow:0 0 6px #ddd; border-radius:3px;}");
 document.writeln(".main-im .open-im span.ss_kf{display:block;height:84px;}");
